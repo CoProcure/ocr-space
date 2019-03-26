@@ -40,7 +40,7 @@ ocr('myAPIKey',[documentURL1, documentURL2], (text) => {
 })
 ```
 
-We often want to run many documents through this process and the ocr.space API will throttle too many simultaneous requests so us await to avoid errors:
+We often want to run many documents through this process and the ocr.space API will throttle too many simultaneous requests so use await to avoid errors:
 
 ```
 textContentOfAllUrlArrayPDFFiles = await new Promise((resolve, reject) => {
