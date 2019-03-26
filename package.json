@@ -1,14 +1,14 @@
 {
   "name": "@coprocure/ocr-space",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/CoProcure/ocr-space"
+    "type": "git",
+    "url": "https://github.com/CoProcure/ocr-space"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +18,3 @@
     "normalize-newline": "^3.0.0"
   }
 }
-
-
